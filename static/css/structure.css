@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	background: #111111;
+	width: 100vw;
+	height: 46px;
+	align-items: center;
+}
+
+.contents-list {
+	display: flex;
+}
+
+.contents-item {
+	display: flex;
+	width: 104px;
+	justify-content: center;
+}
