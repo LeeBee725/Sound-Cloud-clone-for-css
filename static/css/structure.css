@@ -1,17 +1,134 @@
 .header {
 	display: flex;
-	background: #111111;
+	background: #333333;
 	width: 100vw;
 	height: 46px;
-	align-items: center;
 }
 
-.contents-list {
+.header-inner {
+	display: flex;
+	width: 99%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.header-left {
+	display: flex;
+	float: left;
+}
+
+.header-left > div {
 	display: flex;
 }
 
-.contents-item {
+.header-logo {
+	display: flex;
+	background-color: #111111;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+.header-logo-image {
+	width: 48px;
+	height: 22px;
+}
+
+.header-contents {
+	display: flex;
+}
+
+.header-contents-list {
+	display: flex;
+}
+
+.header-contents-list > li{
+	display: flex;
+}
+
+.header-contents-item {
 	display: flex;
 	width: 104px;
 	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-right: 1px solid #111;
+}
+
+.header-contents-home {
+	background-color: #111111;
+}
+
+.header-middle {
+	display: flex;
+	width: 100%;
+	padding: 9px 10px 8px;
+}
+
+.header-search {
+	width: 100%;
+	min-width: 112px;
+}
+
+.header-search-input {
+	width: 100%;
+	height: 28px;
+	color: #666;
+	font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+	font-size: 14px;
+    outline: 0;
+    border: 0;
+    padding: 5px 7px;
+    background: #e5e5e5;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.header-right {
+	display: flex;
+	width: 100%;
+	float: right;
+}
+
+.header-login {
+	display: flex;
+	width: 100%;
+	padding: 9px 10px 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button-sign-in {
+	width: fit-content;
+	height: 26px;
+	margin-right: 10px;
+	padding: 2px 11px 2px 10px;
+}
+
+.button-sign-up {
+	height: 26px;
+	margin-left: 9px;
+	padding: 2px 11px 2px 10px;
+}
+
+.header-upload {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.header-upload > a {
+	display: flex;
+	align-items: center;
+}
+
+.header-nav {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.header-nav > a{
+	display: flex;
+	align-items: center;
 }

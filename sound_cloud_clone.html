@@ -6,30 +6,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="static/css/base.css">
 	<link rel="stylesheet" href="static/css/structure.css">
-	<link rel="shortcut icon" href="static/icon/favicon-2cadd14bdb.ico"  type="image/x-icon">
+	<link rel="shortcut icon" href="static/image/favicon-2cadd14bdb.ico"  type="image/x-icon">
 	<title>Discover the top streamed music and songs online on Soundcloud</title>
 </head>
 <body>
 	<header class="header">
-		<div class="logo">
-			<a class="title font-classic" href="/" title="SoundCloud wishes peace and safety for our community in Ukraine">SOUNDCLOUD</a>
+		<div class="header-inner">
+			<div class="header-left">
+				<div>
+					<a class="header-logo" href="" title="SoundCloud wishes peace and safety for our community in Ukraine">
+						<img class="header-logo-image" src="static/image/logo_image.svg" alt="logo image">
+						<img src="static/image/logo_title.png" alt="logo title">
+					</a>
+				</div>
+				<nav class="header-contents">
+					<ul class="header-contents-list">
+						<li><a class="header-contents-home header-contents-item font-classic" href="">Home</a></li>
+						<li><a class="header-contents-item font-classic" href="">Stream</a></li>
+						<li><a class="header-contents-item font-classic" href="">Library</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header-middle">
+				<div class="header-search">
+					<form action="">
+						<input class="header-search-input" type="search" name="search" id="search" placeholder="Search for artists, bands, tracks, podcasts">
+					</form>
+				</div>
+			</div>
+			<div class="header-right">
+				<div class="header-login">
+					<button class="button-sign-in font-classic">Sign in</button>
+					<button class="button-sign-up font-classic">Create account</button>
+				</div>
+				<div class="header-upload">
+					<a href=""><span class="font-classic">Upload</span></a>
+				</div>
+				<div class="header-nav">
+					<a href=""><span>...</span></a>
+				</div>
+			</div>
 		</div>
-		<nav class="contents">
-			<ul class="contents-list">
-				<li class="contents-item font-classic"><a href="">Home</a></li>
-				<li class="contents-item font-classic"><a href="">Stream</a></li>
-				<li class="contents-item font-classic"><a href="">Library</a></li>
-			</ul>
-		</nav>
-		<form class="search" action="">
-			<input type="search" name="search" id="search" placeholder="Search for artists, bands, tracks, podcasts">
-		</form>
-		<div class="accounts">
-			<button class="sign-in">Sign in</button>
-			<button class="sign-up">Create account</button>
-		</div>
-		<a href=""><span>Upload</span></a>
-		<a href=""><span>...</span></a>
 	</header>
 	<article>
 
